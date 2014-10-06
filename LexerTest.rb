@@ -1,7 +1,7 @@
 require "ArnoldLexer"
 
 code =<<-EOS
-myMethod
+LISTEN TO ME VERY CAREFULLY
 EOS
 #TALK TO THE HAND "Hello World!"
 #HASTA LA VISTA, BABY

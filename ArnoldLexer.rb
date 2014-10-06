@@ -28,7 +28,7 @@ class ArnoldLexer
 			chunk = code[i..-1]
 
 			# Matching standard tokens.
-			if identifier = chunk[/\A([A-Z\s\,\'']*)/, 1]
+			if identifier = chunk[/\A([A-Z\s\,\']*)/, 1]
 
 				# Keywords are special identifiers tagged with their own name, 
 				# 'if' will result in an [:IF, "if"] token.
